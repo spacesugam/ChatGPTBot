@@ -67,8 +67,6 @@ class ChatGptViewModel : ViewModel(){
                         addResponse("No choices found")
                     }
                 }
-            }else{
-                addResponse("Failed to get response ${response.errorBody()}")
             }
         }
 
